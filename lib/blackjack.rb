@@ -31,12 +31,13 @@ end
 def hit?(current_total)
     prompt_user
     get_user_input = choice
-    if choice == "h"
-      new_hand = current_total + deal_card
-    elsif choice == "s"
-      current_total
-    else
-      invalid_command
+      if choice == "h"
+        new_hand = current_total + deal_card
+      elsif choice == "s"
+        current_total
+      else
+        invalid_command
+      end
 end
 
 def invalid_command
