@@ -11,7 +11,7 @@ def display_card_total(total)
 end
 
 def prompt_user
-   
+
 end
 
 def get_user_input
