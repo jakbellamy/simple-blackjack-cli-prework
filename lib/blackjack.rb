@@ -56,5 +56,4 @@ def runner
     until new_hand > 21
       end_game
     end
-  end
 end
