@@ -52,7 +52,7 @@ end
 def runner
   welcome
   initial_round
-  hit
+  hit?
     until new_hand > 21
       end_game
     end
