@@ -50,5 +50,10 @@ end
 #####################################################
 
 def runner
-  # code runner here
+  welcome
+  initial_round
+  hit
+    until new_hand > 21
+      end_game
+    end
 end
